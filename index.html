@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img id="imgWeather" src="bilder/weather2.png" alt="">
+
+    <div class="container">
+        <div class="sokOgTittel">
+            <h1>Værvarsel, Norge</h1>
+            <p>Søk på sted...</p>
+
+            <input type="text" placeholder="Skriv inn en by..." id="sok">
+        </div>
+
+        <div class="append" id="append">
+
+        </div>
+
+        <div class="info">
+            <h1 style="text-align: center; margin-bottom: 40px;">Veivisning, slik bruker du værappen</h1>
+            <p>1. I søkefeltet står det "Skriv inn en by...", skriv inn navnet på stedet du vil se været for.</p> <br>
+            <p>2. Trykk Enter på tastaturet.</p> <br>
+            <p>3. Det hentes værdata fra OpenWeatherMap og viser:</p>
+                <ul>
+                    <li>Stedsnavn</li>
+                    <li>Temperatur i grader Celsius</li>
+                    <li>En kort værbeskrivelse</li>
+                    <li>Høyeste temperatur (maks), den høyeste temperaturen som er målt (eller forventet)</li>
+                    <li>Laveste temperatur (min), den laveste temperaturen som er målt (eller forventet)</li>
+                    <li>“Føles ut som” temperatur</li>
+                </ul>
+            <p>4. Du kan søke på flere steder etter hverandre. Siden tømmes hver gang du tar å gjør et søk.</p>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
